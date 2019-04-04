@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<center><div id="click12" onclick="click1()" style="width: 100%; height: 95vh"/></center>
+
+<audio id="sound12">
+ <source src="sound_16341.mp3">
+</audio>
+</body>
+<script>
+    i=0
+     function click1() {
+         i+=1
+         document.getElementById('click12').innerHTML=i
+         document.getElementById('sound12').play()
+     }
+</script>
+</html>
